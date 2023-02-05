@@ -1,0 +1,6 @@
+framework module BNSegmentedControl {
+  umbrella header "BNSegmentedControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2B657420C10FAEE5E7DD2683 /* BNSegmentedControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BNSegmentedControl.podspec; path = ../BNSegmentedControl.podspec; sourceTree = "<group>"; };
-		4AC3FB250FCE41D689DC4713 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2B657420C10FAEE5E7DD2683 /* BNSegmentedControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BNSegmentedControl.podspec; path = ../BNSegmentedControl.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4AC3FB250FCE41D689DC4713 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BNSegmentedControl_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BNSegmentedControl_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		89001D50FB47A11C285AB11F /* Pods_BNSegmentedControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BNSegmentedControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6D22E18309F334C3024F70 /* Pods-BNSegmentedControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BNSegmentedControl_Example.release.xcconfig"; path = "Target Support Files/Pods-BNSegmentedControl_Example/Pods-BNSegmentedControl_Example.release.xcconfig"; sourceTree = "<group>"; };
-		90E5D72AF69A91D5DE20921C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		90E5D72AF69A91D5DE20921C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9852FD2276EE1385DABA0E3F /* Pods-BNSegmentedControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BNSegmentedControl_Example.debug.xcconfig"; path = "Target Support Files/Pods-BNSegmentedControl_Example/Pods-BNSegmentedControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CEC78270DAFFB14292126ED3 /* Pods-BNSegmentedControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BNSegmentedControl_Tests.release.xcconfig"; path = "Target Support Files/Pods-BNSegmentedControl_Tests/Pods-BNSegmentedControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CF66C807F820BAB42E8E6A22 /* Pods_BNSegmentedControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BNSegmentedControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,7 +147,6 @@
 				E8D51ADEA6B6AAC909AEB50F /* Pods-BNSegmentedControl_Tests.debug.xcconfig */,
 				CEC78270DAFFB14292126ED3 /* Pods-BNSegmentedControl_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,10 +213,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 72G8QYM7HH;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 72G8QYM7HH;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -228,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -497,7 +499,9 @@
 			baseConfigurationReference = 9852FD2276EE1385DABA0E3F /* Pods-BNSegmentedControl_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 72G8QYM7HH;
 				INFOPLIST_FILE = BNSegmentedControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -512,7 +516,9 @@
 			baseConfigurationReference = 8A6D22E18309F334C3024F70 /* Pods-BNSegmentedControl_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 72G8QYM7HH;
 				INFOPLIST_FILE = BNSegmentedControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -526,6 +532,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E8D51ADEA6B6AAC909AEB50F /* Pods-BNSegmentedControl_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 72G8QYM7HH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -535,6 +542,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -548,11 +556,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CEC78270DAFFB14292126ED3 /* Pods-BNSegmentedControl_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 72G8QYM7HH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

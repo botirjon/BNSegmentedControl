@@ -1,0 +1,6 @@
+framework module Pods_BNSegmentedControl_Tests {
+  umbrella header "Pods-BNSegmentedControl_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

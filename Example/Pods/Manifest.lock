@@ -1,0 +1,27 @@
+PODS:
+  - BNSegmentedControl (1.0.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - BNSegmentedControl (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  BNSegmentedControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BNSegmentedControl: dff096a1c95fcfd6065793c95762d3e5f25931a4
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 191cb309a9a75331319a231cbb50e570544af7ab
+
+COCOAPODS: 1.11.3
